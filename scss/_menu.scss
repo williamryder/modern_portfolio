@@ -13,7 +13,7 @@ $secondary-color: #eece1a;
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -90,9 +90,9 @@ $secondary-color: #eece1a;
     }
     .portrait {
       z-index: 29;
-      width: 250px;
-      height: 250px;
-      background: url('../img/Portrait.jpg');
+      width: 300px;
+      height: 300px;
+      background: url('../img/portrait_larger.png');
       border-radius: 50%;
       border: solid 5px $secondary-colour;
     }
@@ -115,9 +115,9 @@ $secondary-color: #eece1a;
   .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
-    padding: 1rem 0;
+    padding: 2rem 0;
     font-weight: 300;
     color: set-text-colour($primary-color);
     text-decoration: none;
