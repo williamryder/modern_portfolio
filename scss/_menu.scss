@@ -89,12 +89,11 @@ $secondary-color: #eece1a;
       transform: translate3d(0, 0, 0);
     }
     .portrait {
-      z-index: 29;
-      width: 300px;
-      height: 300px;
-      background: url('../img/portrait_larger.png');
+      width: 250px;
+      height: 250px;
+      background: url('../img/portrait.jpg');
       border-radius: 50%;
-      border: solid 5px $secondary-colour;
+      border: solid 3px $secondary-color;
     }
   }
 
