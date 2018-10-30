@@ -53,12 +53,11 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      z-index: 29;
-      width: 300px;
-      height: 300px;
-      background: url("../img/portrait_larger.png");
+      width: 250px;
+      height: 250px;
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 5px #eece1a; }
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -167,7 +166,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 5px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
