@@ -1,7 +1,7 @@
 {
   "name": "modern_portfolio",
   "version": "1.0.0",
-  "description": "Responsive Porfolio Website",
+  "description": "Responsive Portfolio Website",
   "main": "index.js",
   "homepage": "https://williamryder.github.io/modern_portfolio",
   "scripts": {
