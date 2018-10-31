@@ -267,7 +267,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url(/"dist/img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -317,13 +317,13 @@ main {
   .menu-branding {
     height: 50vh; }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("/dist/img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info .bio-image {
     width: 250px;
     height: 250px;
-    background: url("../img/portrait_small.jpg"); }
+    background: url("/dist/img/portrait_small.jpg"); }
   .about-info .projects {
     grid-template-columns: 1fr; }
   .about-info .boxes div {
