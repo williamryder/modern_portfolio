@@ -297,7 +297,7 @@ main {
   .about-info .bio-image {
     width: 150px;
     height: 150px;
-    background: url("../img/portrait_small.jpg"); }
+    background: url("/dist/img/portrait_small.jpg"); }
   .about-info .projects {
     grid-template-columns: 1, 1fr; }
   .about-info .boxes div {
