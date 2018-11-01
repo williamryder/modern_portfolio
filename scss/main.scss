@@ -133,11 +133,11 @@ main {
 
 // Contact Page
 .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  text-align: center;
 
   div {
     font-size: 2rem;

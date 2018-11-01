@@ -59,12 +59,11 @@
       'job1'
       'job2'
       'job3';
-
     grid-template-columns: 1fr;
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1 1fr;
   }
 }
 
@@ -88,7 +87,7 @@
   }
 }
 // Small Smartphones
-@include mediaXS {
+@include mediaVs {
   main#home h1 {
     margin-top: 10vh;
   }
@@ -105,8 +104,9 @@
       height: 150px;
       background: url('/dist/img/portrait_small.jpg');
     }
+
     .projects {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1, 1fr;
     }
 
     .boxes {
@@ -115,12 +115,10 @@
       }
     }
   }
-  .projects {
-    grid-template-columns: 1fr;
-  }
 }
-// Smartphone Landscape
-@include mediaSmLs {
+
+// Smartphone Landy
+@include mediaSmlandy {
   main#home h1 {
     margin-top: 10vh;
   }
