@@ -1,7 +1,7 @@
 $primary-color: (rgb(22, 29, 75));
 $secondary-colour: #eece1a;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(/dist/img/background.jpg);
 $background-opacity: 0.8;
 
 @mixin easeOut {
@@ -69,7 +69,7 @@ $background-opacity: 0.8;
   }
 }
 
-@mixin mediaSmlandy {
+@mixin mediaSmLandscape {
   @media screen and (max-width: 750px) and (orientation: landscape) {
     @content;
   }
